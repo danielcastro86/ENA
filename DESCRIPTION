@@ -8,3 +8,5 @@ Description: Estimates Network Activity based on the proposal by @@.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
+Imports: mgm
+Depends: mgm
