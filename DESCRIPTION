@@ -1,0 +1,10 @@
+Package: ENA
+Type: Package
+Title: Expected Network Activity 
+Version: 0.1.0
+Author: Daniel Castro
+Maintainer: Daniel Castro <danielcastro@umaia.pt>
+Description: Estimates Network Activity based on the proposal by @@.    
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
