@@ -19,9 +19,9 @@ ENA <- function(mgmModel, data, factors, activity, symptoms){
   for(i in 1:p) {
     NM_i <- NM_new[[i]]
     if(data_mgm_type[i]=="c") {
-      NM_i$model$`1`[-1,1][FullModel$pairwise$wadj[-i, i] == 0] <- 0
+      NM_i$model$`1`[-1,1][mgmModel$pairwise$wadj[-i, i] == 0] <- 0
     } else {
-      NM_i$model[-1,1][FullModel$pairwise$wadj[-i, i] == 0] <- 0
+      NM_i$model[-1,1][mgmModel$pairwise$wadj[-i, i] == 0] <- 0
     }
     NM_new[[i]] <- NM_i
   }
